@@ -3,7 +3,8 @@ import numpy as np
 import detect
 from RG import detect_colored
 
-image_path = '/home/xuen/桌面/week-9/pt/a.png'#'/home/xuen/桌面/week-9/pt/b.jpeg','/home/xuen/桌面/week-9/pt/c.jpeg','/home/xuen/桌面/week-9/pt/d.png','/home/xuen/桌面/week-9/pt/e.jpeg
+image_path = '/home/xuen/桌面/week-9/pt/a.png'
+#'/home/xuen/桌面/week-9/pt/b.jpeg','/home/xuen/桌面/week-9/pt/c.jpeg','/home/xuen/桌面/week-9/pt/d.png','/home/xuen/桌面/week-9/pt/e.jpeg
 image = cv2.imread(image_path)
 
 # 红绿点图像
